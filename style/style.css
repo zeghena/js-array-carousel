@@ -17,6 +17,7 @@ body {
   height: 600px;
   overflow: hidden;
   position: relative;
+  border-radius: 1rem;
 }
 .slides-container {
   width: 100%;
@@ -28,18 +29,31 @@ body {
   object-fit: cover;
 }
 .arrow-up {
+  color: white;
   position: absolute;
   width: 50px;
   height: 50px;
   top: 20px;
   left: 50%;
+  line-height: 50px;
+  text-align: center;
+
   transform: translateX(-50px);
+
+  border-radius: 50%;
+  background-color: rgba(250, 235, 215, 0.4);
 }
 .arrow-down {
+  color: white;
   position: absolute;
   width: 50px;
   height: 50px;
+  text-align: center;
+  line-height: 50px;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50px);
+
+  border-radius: 50%;
+  background-color: rgba(250, 235, 215, 0.4);
 }
